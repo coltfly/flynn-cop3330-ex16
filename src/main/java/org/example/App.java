@@ -15,7 +15,7 @@ public class App
         System.out.print( "What is your age? ");
         int age = Integer.parseInt(Obj.nextLine());
 
-        final String msg = age > 16
+        final String msg = age >= 16
                 ? "You are old enough to legally drive."
                 : "You are not old enough to legally drive.";
 
